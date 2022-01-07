@@ -7,7 +7,7 @@ dotenv.config();
 var mongourl = 'mongodb+srv://test:test@cluster0.vkjly.mongodb.net/mojo_shine?retryWrites=true&w=majority';
 var cors = require('cors')
 const bodyParser = require('body-parser')
-var port = process.env.PORT || 8145;
+var port = process.env.PORT || 8144;
 
 var db;
 app.use(bodyParser.urlencoded({extended:true}));
