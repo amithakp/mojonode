@@ -20,7 +20,7 @@ app.get('/',(req,res) => {
 
 //return all category(vehicle).. which is car or bike
 app.get('/vehicle',(req,res) => {
-    db.collection('category').find().toArray((err,result) => {
+    db.collection('vehicle').find().toArray((err,result) => {
         if(err) throw err;
         res.send(result);
     })
